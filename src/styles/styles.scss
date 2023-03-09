@@ -1,0 +1,20 @@
+$theme_colors: (
+    'primary': lighten($color: #F1C40F, $amount: 10),
+    'secondary': #856826,
+    'success': #679a50,
+    'info': #605d35,
+    'warning': #F5E520,
+    'danger': #E75D48,
+    'light': #f8f9fa,
+    'dark': #343a40
+);
+
+.pointer {
+    cursor: pointer
+};
+
+body {
+    user-select: none;
+};
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
